@@ -9,7 +9,7 @@ import Nav from "./components/Nav";
 //Import data
 import chillhop from "./data";
 //Util
-import { playAudio } from "./utils";
+import { playAudio } from "./util";
 
 function App() {
     //Ref

@@ -1,6 +1,6 @@
 
 import React from "react";
-import { playAudio } from "../utils";
+import { playAudio } from "../util";
 
 const LibrarySong = ({
                          name,
