@@ -149,9 +149,22 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .rotateSong {
-    animation: rotate 20s linear forwards infinite;
-}
+    animation: rotate 5s linear forwards infinite;
+    position: relative;
+    display: flex;
 
+}
+.d1 {
+    position: absolute;
+    width: 9%;
+    height: 10%;
+    margin-bottom: 95px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+body {
+    margin:0px;
+}
 
 .library {
     position: fixed;
